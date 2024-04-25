@@ -66,8 +66,8 @@ const hideSearchContents = () => {
 
 const searchContent = (e) => {
     const INDEX = "process.env.ALGOLIA_INDEX";
-    const APP_ID = "process.env.ALGOLIA_APP_ID";
-    const API_ID = "process.env.ALGOLIA_SEARCH_API_KEY";
+    const APP_ID = "process.env.OHK1NEJ02A";
+    const API_ID = "process.env.1cbf03e7cf0bbddc9ba8b52805e9bedc";
 
     const keywords = e.target.value;
 
