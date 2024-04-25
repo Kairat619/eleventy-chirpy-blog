@@ -88,8 +88,8 @@ const searchContent = (e) => {
         `https://${APP_ID}-dsn.algolia.net/1/indexes/${INDEX}?query=${keywords}&hitsPerPage=200`,
         {
             headers: {
-                "X-Algolia-Application-Id": APP_ID,
-                "X-Algolia-API-Key": API_ID
+                "X-OHK1NEJ02A": APP_ID,
+                "X-f79243afd4a75a168e590fdfaa05bbbd": API_ID
             }
         }
     )
