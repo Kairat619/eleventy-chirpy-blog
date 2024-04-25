@@ -10,9 +10,9 @@ module.exports = {
     // Image alt text for left sidebar
     imageAlt: "René and Einstein",
     // Author name, shown in left sidebar, and used in JSON-LD
-    author: "René Winkelmeyer",
+    author: "Kairat Kapasuly",
     // Site description, shown below site image (optional)
-    description: "My kitchen sink about stuff",
+    description: "I`m still learning...",
     // OpenGraph default image, in case you don't have an `image`
     // set in your Markdown frontmatter; relevant for social
     // sharing.
