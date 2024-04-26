@@ -35,17 +35,16 @@ module.exports = {
         // You'll have to set this manually in your build settings.
         // The value comes from Algolia, and is either visible in the
         // UI for the Crawler Plugin or the Algolia Dashboard.
-        appId: 'process.env.OHK1NEJ02A',
+        appId: process.env.ALGOLIA_APP_ID,
         // You'll have to set this manually in your build settings.
         // The value comes from Algolia, and is either visible in the
         // UI for the Crawler Plugin or the Algolia Dashboard.
-        searchApiKey: 'process.env.1cbf03e7cf0bbddc9ba8b52805e9bedc',
+        searchApiKey: process.env.ALGOLIA_SEARCH_API_KEY,
         // You'll have to set this manually in your build settings.
         // The value comes from Algolia, and is either visible in the
         // UI for the Crawler Plugin or the Algolia Dashboard.
-        siteId: 'process.env.e1cb8ad7-f719-4f13-8e72-175e91def875',
+        siteId: process.env.ALGOLIA_SITE_ID,
         // Assuming that you deploy your "main" branch. Otherwise you
         // can either override or configure this (using process.env.HEAD)
         branch: "main"
     }
-};

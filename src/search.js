@@ -65,9 +65,9 @@ const hideSearchContents = () => {
 };
 
 const searchContent = (e) => {
-    const INDEX = "process.env.netlify_e1cb8ad7-f719-4f13-8e72-175e91def875_main_all";
-    const APP_ID = "process.env.OHK1NEJ02A";
-    const API_ID = "process.env.1cbf03e7cf0bbddc9ba8b52805e9bedc";
+    const INDEX = "process.env.ALGOLIA_INDEX";
+    const APP_ID = "process.env.ALGOLIA_APP_ID";
+    const API_ID = "process.env.ALGOLIA_SEARCH_API_KEY";
 
     const keywords = e.target.value;
 
@@ -88,8 +88,8 @@ const searchContent = (e) => {
         `https://${APP_ID}-dsn.algolia.net/1/indexes/${INDEX}?query=${keywords}&hitsPerPage=200`,
         {
             headers: {
-                "X-OHK1NEJ02A": APP_ID,
-                "X-f79243afd4a75a168e590fdfaa05bbbd": API_ID
+                "X-Algolia-Application-Id": APP_ID,
+                "X-Algolia-API-Key": API_ID
             }
         }
     )
