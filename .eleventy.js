@@ -7,6 +7,10 @@ const { readFileSync } = require("fs");
 const siteconfig = require("./content/_data/siteconfig.js");
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
+const algoliasearch = require("algoliasearch");
+const client = algoliasearch(process.env.ALGOLIA_APP_ID, process.env.ALGOLIA_SEARCH_API_KEY);
+const index = client.initIndex(process.env.ALGOLIA_INDEX);
+
 
 module.exports = function (eleventyConfig) {
     // Set Markdown library

@@ -48,3 +48,4 @@ module.exports = {
         // can either override or configure this (using process.env.HEAD)
         branch: "main"
     }
+}
